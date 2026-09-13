@@ -83,11 +83,11 @@ execute:
 ## Push your QMD and HTML files to your GitHub repo.
 
 ::: callout-note
-I pushed both my QMD file and HTML file to my GitHub repository.
+<https://github.com/Sora-Sky-Sora/Fall-M02>
 :::
 
-## Publish your document to GitHub Pages. Instructions are provided in Step 3.
+## Publish your document to GitHub Pages. 
 
 ::: callout-note
-I published my rendered HTML document to GitHub Pages.
+<https://sora-sky-sora.github.io/Fall-M02/Sora,Hosoda.html>
 :::
