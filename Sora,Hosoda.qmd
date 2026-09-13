@@ -1,0 +1,93 @@
+---
+title: "M02-Introduction to Data Science in R-Reflection"
+author: "Sora Hosoda"
+date: "September 9, 2026"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+# Respond to the following essay prompt.
+
+## Summarize new things you learned in this module about reproducible data science and literate coding.
+
+> In this module, I learned several new things about reproducible data science and literate coding. One of the most important ideas was reproducibility, which means that the same results can be obtained by using the same data, code, and procedures. I realized that reproducibility is important because it helps researchers check their work and makes it easier to understand or reuse a project later.
+>
+> I also learned some practical ways to improve reproducibility. For example, it is important to organize project files, keep raw data unchanged, create README files, and write clear comments in code. Another topic that stood out to me was Git and GitHub. They can be used to keep track of changes, save different versions of a project, and make collaboration easier.
+>
+> The concept of literate coding was also new to me. Before this module, I usually thought of code and reports as separate things. However, I learned that explanations, code, figures, and results can be combined in a single document. Tools such as Quarto, R Markdown, and Jupyter Notebook make this possible.
+>
+> For me, one of the biggest takeaways was that reproducible data science is not only about getting the correct results. It is also about keeping work organized and making it easier for other people, or even my future self, to understand what was done.
+
+## Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or studies, like taking notes in your class or preparing a presentation? More eye-catching effects will be introduced in later modules.
+
+> One of the most interesting things I learned about Quarto is that it can create many different types of documents from the same .qmd file. Before this course, I only used Quarto to create HTML documents. I was surprised to learn that it can also create PDF files, Word documents, presentation slides, and websites.
+>
+> The presentation feature was especially interesting to me. When I prepare presentations, I usually make graphs in another program, take screenshots, and then paste them into PowerPoint slides. Learning that Quarto can also be used to create presentation slides made me think that it could save a lot of time when preparing presentations.
+>
+> Another thing I learned was that Quarto has many more layout options than I expected. Before this module, I mostly used headings and code blocks. After watching the lectures and creating my own reports, I learned about features such as callout blocks, tabsets, and columns. Seeing these examples made me realize that there are many ways to make reports easier to read and more organized.
+>
+> I can see myself using Quarto in the future, especially for presentations, reports, and project documentation. I was also interested in the examples of personal websites and portfolio pages introduced in the lectures. In the future, I would like to create a portfolio website and use it to organize and share my projects.
+>
+> Although I do not think I will use Quarto for everyday note-taking, I will use it to organize course materials, prepare reports, create presentations, and build a portfolio website.
+
+## Summarize the video presentation about reproducibility crisis. What do you think about reproducible crisis in your field? How can Quarto help address the concerns you have about reproducibility in the line of your work?
+
+> The video explains that reproducibility is a major concern in research. A Nature survey found that almost 90% of scientists believed there was a reproducibility crisis, and many researchers had difficulty reproducing both others' work and their own. The video suggests seeing this problem as an opportunity to improve research practices by making research processes easier to understand and repeat.
+>
+> In digital marketing, I think reproducibility is important because many decisions are based on data analysis. Marketing reports, customer analysis, and campaign evaluations may be difficult to reproduce if the data or analysis steps are not clearly documented. It can also be difficult for the original analyst to remember exactly what was done when returning to the same project later.
+>
+> Quarto can help with this problem because it allows code, results, visualizations, and explanations to be kept together in one document. The video explains that this type of literate coding makes it easier to explain the analysis process and rerun the work when data changes. I think this would be useful in digital marketing because the analysis can be easier to follow, update, and reproduce later.
+
+## Summarize what you learned in this module about the Tidyverse ecosystem in R. What can you do with R?
+
+> In this module, I learned about the Tidyverse ecosystem and how it is used in R for data analysis. Tidyverse is made up of several R packages that can be used together for different parts of data analysis.
+>
+> The module showed how Tidyverse can be used to import data, clean data, analyze data, and create visualizations. Some of the main packages introduced were `readr`, `tidyr`, `dplyr`, and `ggplot2`. I also learned how the pipe operator can connect multiple steps together and make code easier to read.
+>
+> The concept of tidy data was also introduced. Data should be organized so that each variable is stored in a column and each observation is stored in a row. This structure makes data easier to work with and understand.
+>
+> The `dplyr` package introduced useful functions such as `filter()`, `select()`, `arrange()`, `mutate()`, `group_by()`, and `summarise()`. These functions can be combined to organize and summarize data in different ways. I also saw how `ggplot2` can be used to create graphs and communicate results more clearly.
+>
+> Before this module, I thought R was mainly used for calculations. After working through the examples, I realized that R can also be used to clean data, perform analysis, create visualizations, and generate reports.
+
+## Refer to the video introducing two 20 packages. Among the various packages introduced, choose two packages beyond the Tidyverse ecosystem, base R, and Quarto that could enhance your job/career. Tell me why you think so. 
+
+> Among the packages introduced in the video, the two packages that interested me the most were reticulate and shiny.
+>
+> The first package is reticulate. I found this package interesting because it allows R and Python to work together. Python is widely used in data science, and I think there may be situations where I need to use both R and Python in the same project. Being able to use Python code within an R environment seems very useful. I think this could help me work more efficiently and make it easier to use the strengths of both languages.
+>
+> The second package is shiny. I was interested in shiny because it can be used to create interactive web applications directly from R. Instead of only creating static reports or graphs, users can interact with the data and explore the results themselves. I think this could be useful for presenting analysis results to people who do not have a technical background.
+>
+> Both packages seem practical for real-world projects. Reticulate can help connect different programming languages, while shiny can help communicate results more effectively. For these reasons, I think both packages could be useful for my future studies and career.
+
+## Refer to the debate on R vs. Python. What is your take on this debate?  In your response, consider how Quarto enables people using R and Python in the same team to still collaborate, as illustrated in the Video you watched in a few modules ahead: "Mine Çetinkaya-Rundel & Julia Stewart Lowndes \| Hello Quarto: Share, Collaborate, Teach, Reimagine" (<https://www.youtube.com/watch?v=p7Hxu4coDl8&t=1717sLinks>).
+
+> Since I have more experience with R than Python, I currently feel more comfortable using R. However, I am still a beginner in Python, so I do not think I have enough experience to say that one language is better than the other.
+>
+> From the videos, I learned that both R and Python are widely used in data science and can be useful for different purposes. Because of this, I do not think the most important question is which language is better. Instead, I think it is more important to be able to work with people who use different tools and programming languages.
+>
+> One thing that stood out to me was how Quarto can support collaboration between R and Python users. The examples from the NASA Openscapes project showed that team members could use R, Python, Jupyter Notebook, RStudio, or other tools while still contributing to the same project. I think this is a practical approach because not everyone on a team will use the same language or workflow.
+>
+> In my field of digital marketing, different people may use different tools depending on their roles and responsibilities. Because of this, I think the ability to collaborate across different programming languages is very valuable. Quarto makes this easier by allowing code, results, and documentation from different languages to be combined into the same project and shared in a consistent format.
+>
+> Overall, both Python and R have strengths, and Quarto makes it possible for people using different languages to work together effectively.
+
+## Push your QMD and HTML files to your GitHub repo.
+
+::: callout-note
+I pushed both my QMD file and HTML file to my GitHub repository.
+:::
+
+## Publish your document to GitHub Pages. Instructions are provided in Step 3.
+
+::: callout-note
+I published my rendered HTML document to GitHub Pages.
+:::
