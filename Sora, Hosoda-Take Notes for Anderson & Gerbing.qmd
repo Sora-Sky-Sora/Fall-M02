@@ -258,5 +258,6 @@ Anderson, James C., and David W. Gerbing. 1988. “Structural Equation Modeling 
 
 # Appendix
 
-- [GitHub Repository - replace with your repository link](https://github.com/your-username/your-repository)
-- [Published Article Notes on GitHub Pages - replace with your published report link](https://your-username.github.io/your-repository/)
+- [GitHub Repository](https://github.com/Sora-Sky-Sora/Fall-M02)
+
+- [Published Article Notes on GitHub Pages](https://sora-sky-sora.github.io/Fall-M02/Sora,%20Hosoda-Take%20Notes%20for%20Anderson%20%26%20Gerbing.html)
